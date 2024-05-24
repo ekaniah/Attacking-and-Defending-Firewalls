@@ -1,0 +1,71 @@
+# Lab Title: Attacking and Defending Firewalls
+
+## Date: 05/23/2024
+
+## Lab Overview:
+
+Attacking and Defending Firewalls
+This lab teaches one how a hacker might enter a network and how to write rules to protect the network from such attacks. 
+How to configure firewalls to trigger alerts when an attack is detected.
+And how an attacker can attack a firewall and steal data over an encrypted channel using nmap (or Zenmap) and metaspolit (or meterpreter).
+---
+
+### Part #1 - Host-Based Firewall
+
+#### Time for Lab Completion:
+1hr,8mins
+
+#### Purpose of the Lab:
+This lab explores firewalls in the IT environment at the host.
+I viewed and configured the two host-based firewalls that are packaged with the Windows operating systems as well as create a firewall rule within the Linux Ubuntu operating system using the uncomplicated firewall (UFW).
+
+#### What did you enjoy about the lab?
+It was short and straightforward.
+
+#### What did you find most challenging about the lab?
+There were no exercises or flags to capture. It made the lab uninteresting.
+---
+
+### Part 2 - Attacking the Firewall and Stealing Data Over an Encrypted Channel
+
+#### Time for Lab Completion:
+1 hour, 12mins
+
+#### Purpose of the Lab:
+This lab teaches one how threat actors can attack a firewall and steal data over an encrypted channel. 
+Using an external Kali Attack Machine on the wide area network, or WAN, to attack a web application on the network.
+Metasploit and a Meterpreter payload were used to exploit a machine using an XAMPP WebDAV PHP Upload exploit. 
+This exploit uses default WebDAV credentials on XAMPP servers.
+It uses supplied credentials to launch a Hypertext Preprocessor (PHP) Meterpreter payload.
+This lab on 'Attacking a Firewall and Stealing Data Over an Encrypted Channel' is crucial to the study of cybersecurity because be understanding how cyber criminals work, we can prepare our defense and countermeasures better.
+Studing Attack techniques teaches us the best ways to optimize firewall rules to prevent breaches.
+
+#### What did you enjoy about the lab?
+I wasn't stuck at any point during the exercise. Everything worked as it should.
+
+#### What did you find most challenging about the lab?
+Nothing really.
+
+Discussion Questions A
+1.	What is Kali Linux?
+An Advanced Penetration Testing Linux distribution designed for digital forensics and penetration testing, ethical hacking, and network security assessments..
+2.	What is nmap?
+Nmap is an open-source network vulnerability scanner used to discover hosts and open ports/services. Zenmap is the GUI to nmap.
+3.	What is a port?
+A virtual endpoint for communication between devices or applications on a network, identified by a unique number eg port 80 for http or port 22 for ssh.
+Discussion Questions B
+1.	What is PostgreSQL?
+PostgreSQL is a powerful, open source database system that uses and extends the SQL language and supports many features for data storage and scaling
+2.	What is Metasploit?
+Metasploit is an open source tool that enables security professionals to simulate attacks against computer systems, networks, and applications.
+3.	What is XAMPP? 
+XAMPP stands for Cross-Platform (X), Apache (A), MySQL (M), PHP (P) and Perl (P). It is a simple, lightweight Apache distribution that makes it extremely easy for developers to create a local web server for testing purposes. Everything you need to set up a web server – server application (Apache), database (MySQL), and scripting language (PHP) – is included in a simple extractable file. XAMPP is also cross-platform, which means it works equally well on Linux, Mac and Windows.
+
+Discussion Questions C
+1.	What is Meterpreter?
+Meterpreter is a Metasploit attack payload that provides an interactive shell from which an attacker can explore the target machine and execute code. Meterpreter is deployed using in-memory DLL injection. As a result, Meterpreter resides entirely in memory and writes nothing to disk. No new processes are created as Meterpreter injects itself into the compromised process, from which it can migrate to other running processes. As a result, the forensic footprint of an attack is very limited.
+2.	What is an ms09_050 vulnerability?
+The MS09-050 vulnerability is a security issue related to Server Message Block Version 2 (SMBv2) in Microsoft Windows. It allows remote code execution if an attacker sends a specially crafted SMB packet to a computer running the Server service1. The vulnerability is caused by an array index error in the SMB2 protocol implementation2. It affects Windows 7, Server 2008, and Vista123.
+
+
+
